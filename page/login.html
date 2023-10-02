@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/favicon.jpg" sizes="16x16">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Projeto Guilherme e Alan</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="div-logo">
+                <img class="logo-dna" src="../assets/Anotação_2023-10-02_105553-removebg-preview.png">
+                <h1 class="titulo"><a href="../page/index.html">Viva Bem</a></h1>
+            </div>
+            <div>
+                <ul class="ul-espaco">
+                    <li><a class="lista" href="../page/login.html">Cadastro</a></li>
+                    <li><a class="lista" href="#">Calcula IMC</a></li>
+                </ul>
+            </div>
+
+            <div class="div-account-logo">
+                <span class="account-logo">
+                    <a class="account-logo" href="../page/login.html">account_circle</a>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for="nome-usuario">Nome do Usuário</label>
+            <div class="div-input-form">
+                <input class="input-form" type="text" name="nome-usuario" placeholder="Ex: Gustavo" required>
+            </div>
+
+            <label for="email-usuario">Email</label>
+            <div class="div-input-form">
+                <input class="input-form" type="email" name="email-usuario" placeholder="seuemail@exemplo.com" required>
+            </div>
+
+            <label for="senha-usuario">Senha</label>
+            <div class="div-input-form">
+                <input class="input-form" type="password" name="senha-usuario" placeholder="........" required>
+            </div>
+
+            <button>Criar</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="div-contato-link">
+                <p class="titulo-contato">Entre em Contato Conosco:</p>
+                <ul class="ul-lista-de-contato">
+                    <li class="li-contato-link">
+                        <a class="link-contato" href="https://www.lbv.org">Fale com a nossa Parceria</a>
+                        <a class="link-contato" href="https://www.youtube.com/lbvbrasil">Também entre em nosso canal</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="div-copyright">
+                <p>© 2023 Viva Bem</p>
+                <img class="logo-viva-bem-footer" src="../assets/logo-VB-min.png" alt>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

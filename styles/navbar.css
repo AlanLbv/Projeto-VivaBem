@@ -1,0 +1,91 @@
+*{
+    color: white;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(180deg, #780099 , #B009DE);
+    display: flex;
+}
+
+.div-logo{
+    padding: 30px;
+}
+
+.logo-dna{
+    position: absolute;
+    width: 70px;
+    top: 7px;
+    left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    display: inline;
+    color: white;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.ul-espaco{
+    display: flex;
+    padding: 38px 0px 0px 0px;
+}
+
+.lista{
+    display: inline;
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif ;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #780099;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.lista:hover{
+    background-color: #8e02b4;
+}
+
+.lista:active{
+    box-shadow: 4px -3px 1px #61017b;
+    transition: 0.1s;
+}
+
+/*Logo da Conta*/
+
+.div-account-logo{
+    position: absolute;
+    right: 90px;
+    top: 25px;
+}
+
+.account-logo {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.account-logo:hover{
+    color: #689E0E;
+}

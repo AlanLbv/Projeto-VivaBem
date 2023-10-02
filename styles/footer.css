@@ -1,0 +1,64 @@
+* {
+    color: white;
+}
+
+.footer {
+    height: 125px;
+    width: 100%;
+    background: linear-gradient(180deg, #B009DE, #780099);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;;
+}
+
+/*Parte do css da div Contato*/
+
+.div-contato-link{
+    width: 35%;
+    text-align: center;
+    margin: 50px 0 10px 0;
+}
+
+.titulo-contato{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.ul-lista-de-contato{
+    width: 400px;
+}
+
+.li-contato-link {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.link-contato{
+    font-size: 14px;
+    transition: 0.2s;
+    padding: 0px 5px;
+    text-decoration: underline;
+}
+
+.link-contato:hover{
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding: 0px 4.5px;
+    color: #8CE000;
+}
+
+/*Parte do css da div CopyRight*/
+
+.div-copyright{
+    position: absolute;
+    margin: 15px 0px;
+    display: flex;
+}
+
+.logo-viva-bem-footer{
+    width: 50px;
+    margin: -11px 0 0 0px;
+}

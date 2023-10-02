@@ -1,0 +1,45 @@
+main{
+    background-color: #ededed;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    padding: 100px 100px;
+}
+
+.div-main{
+    background-color: white;
+    padding: 50px;
+}
+
+.slogan-viva-bem{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+    padding: 0px 0px 50px;
+}
+
+.titulo-viva-bem {
+    color: black;
+    justify-content: center;
+    display: grid;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.div-description-img-vivaBem{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.div-description-viva-bem{
+    width: 400px;
+}
+
+.description-viva-bem{
+    color: black;
+}
+
+.img-meditacao{
+    width: 300px;
+}
