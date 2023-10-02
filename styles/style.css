@@ -29,17 +29,27 @@ main{
 
 .div-description-img-vivaBem{
     display: flex;
-    margin: 20px 0px;
+    margin: 0 auto;
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px 40px;
 }
 
 .div-description-viva-bem{
-    width: 400px;
+    width: 600px;
 }
 
 .description-viva-bem{
     color: black;
+    padding: 30px;
+    line-height: 20px;
 }
 
 .img-meditacao{
     width: 300px;
+    height: 215px;
+    padding: 20px 0px 20px;
+    border-right: 2px dashed black;
+    margin-left: -40px;
 }
