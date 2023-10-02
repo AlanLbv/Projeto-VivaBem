@@ -50,5 +50,57 @@ button:hover{
     color: white;
     width: 125px;
     border: 2px solid black;
+body{
+    background-color: #ededed;
+}
+
+input, label{
+    color: black;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+form{
+    display: grid;
+    margin: 80px 250px;
+    border-radius: 10px;
+    padding: 80px 0px 80px 0px;
+    background-color: white;
+}
+
+.input-form{
+    margin: 15px 0px 25px;
+    padding: 5px 0px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #b6b4b4;
+    font-size: 17px;
+}
+
+.div-input-form{
+    margin: 0 auto;
+}
+
+button {
+    width: 100px;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    padding: 7px 0px;
+    cursor: pointer;
+    border: 2px solid #898989;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: blueviolet;
+    color: white;
+    width: 125px;
+    border: 2px solid black;
 
 }
