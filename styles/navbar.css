@@ -5,7 +5,7 @@
 .navbar {
     height: 100px;
     width: 100%;
-    background: linear-gradient(180deg, #780099 , #B009DE);
+    background: linear-gradient(180deg, #400052, #780099);
     display: flex;
 }
 
@@ -55,7 +55,7 @@ a{
 }
 
 .lista:active{
-    box-shadow: 4px -3px 1px #61017b;
+    box-shadow: 5px -4px 1px #3c004c;
     transition: 0.1s;
 }
 
