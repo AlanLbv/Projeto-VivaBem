@@ -1,17 +1,24 @@
-main{
-    background-color: #ededed;
-    display: flex;
-    font-family: 'Inter', sans-serif;
-    padding: 100px 100px;
+html {
+    scroll-behavior: smooth;
 }
 
-.div-main{
+main {
+    background-color: #ededed;
+    font-family: 'Inter', sans-serif;
+    padding: 40px 100px;
+}
+
+.div-main {
     background-color: white;
     padding: 50px;
     border-radius: 20px;
 }
 
-.slogan-viva-bem{
+.div-main:nth-child(1) {
+    margin: 75px 0;
+}
+
+.slogan-viva-bem {
     color: black;
     font-family: 'Roboto', sans-serif;
     display: grid;
@@ -28,7 +35,11 @@ main{
     margin-bottom: 65px;
 }
 
-.div-description-img-vivaBem{
+.titulo-viva-bem:nth-child(1) {
+    margin-bottom: 30px;
+}
+
+.div-description-img-vivaBem {
     display: flex;
     margin: 0 auto;
     width: 700px;
@@ -37,20 +48,91 @@ main{
     padding: 10px 40px;
 }
 
-.div-description-viva-bem{
+.div-description-viva-bem {
     width: 600px;
 }
 
-.description-viva-bem{
+.description-viva-bem {
     color: black;
     padding: 30px;
     line-height: 20px;
 }
 
-.img-meditacao{
+.description-viva-bem:nth-child(3) {
+    text-align: center;
+}
+
+.img-meditacao {
     width: 300px;
     height: 215px;
     padding: 20px 0px 20px;
     border-right: 2px dashed black;
     margin-left: -40px;
+}
+
+.btn-veja-mais {
+    color: black;
+    background: white;
+    width: 12%;
+    padding: 15px 100px;
+    font-size: 17px;
+    border: 1px solid #8080807d;
+    cursor: pointer;
+    margin: -45px auto 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.anchor-arrow {
+    color: black;
+}
+
+.input-min {
+    scale: 0.01;
+    background: none;
+    border: none;
+}
+
+.div-btn-produtos {
+    display: flex;
+    margin: 5px;
+}
+
+.btn-description-produtos {
+    color: black;
+    width: 70%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #808080d6;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: inherit;
+    transition: 0.2s;
+}
+
+.btn-description-produtos:focus {
+    box-shadow: 0px 0px 1px 1px purple;
+    background-color: #ffa2ff;
+}
+
+.material-symbols-outlined{
+    color: black;
+    position: absolute;
+    margin: -5px 5px;
+
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 24,
+    ;
+}
+
+.material-symbols-outlined:active {
+    transform: rotate(180deg);
+}
+
+.seta-down{
+    margin: -4px 8px;
 }
