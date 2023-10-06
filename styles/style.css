@@ -73,18 +73,22 @@ main {
 .btn-veja-mais {
     color: black;
     background: white;
-    width: 12%;
-    padding: 15px 100px;
-    font-size: 17px;
     border: 1px solid #8080807d;
-    cursor: pointer;
+    width: 12%;
+    padding: 15px 150px;
+    font-size: 17px;
     margin: -45px auto 10px;
-    text-align: center;
     border-radius: 30px;
+    justify-content: center;
+    display: grid;
+    cursor: pointer;
 }
 
 .anchor-arrow {
     color: black;
+    text-align: center;
+    justify-content: center;
+    display: grid;
 }
 
 .input-min {
@@ -134,5 +138,10 @@ main {
 }
 
 .seta-down{
-    margin: -4px 8px;
+    margin: -3px 0px 0px 91px;
+    transition: 0.5s;
+}
+
+.notShowing {
+    display: none;
 }
