@@ -2,6 +2,7 @@ let btnMore = document.querySelector("#btn-saiba-mais")
 let arrowDown = document.querySelector('#arrow-down')
 let sectionShowing = document.querySelector('#sectionShowing')
 let focusArrow = document.querySelector('#focus-arrow')
+let focusNav = document.querySelector('#focus-nav')
 
 
 btnMore.addEventListener('click', () => {
@@ -12,5 +13,6 @@ btnMore.addEventListener('click', () => {
     } else {
         sectionShowing.classList.add("notShowing")
         arrowDown.style.transform = "rotate(0deg)"
+        focusNav.focus()
     }
 })

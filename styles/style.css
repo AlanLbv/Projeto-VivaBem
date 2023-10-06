@@ -3,19 +3,17 @@ html {
 }
 
 main {
-    background-color: #ededed;
+    background-color: rgb(245, 245, 245);;
     font-family: 'Inter', sans-serif;
-    padding: 40px 100px;
 }
 
 .div-main {
     background-color: white;
-    padding: 50px;
     border-radius: 20px;
 }
 
 .div-main:nth-child(1) {
-    margin: 75px 0;
+    margin: 55px 0;
 }
 
 .slogan-viva-bem {
@@ -77,7 +75,7 @@ main {
     width: 12%;
     padding: 15px 150px;
     font-size: 17px;
-    margin: -45px auto 10px;
+    margin: 0px auto 10px;
     border-radius: 30px;
     justify-content: center;
     display: grid;
