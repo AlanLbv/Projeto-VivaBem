@@ -46,7 +46,7 @@
         <form>
             <label for="nome-pessoa">Nome</label>
             <div class="div-input-label">
-                <input class="input-nome" type="text" name="nome-pessoa" placeholder="Ex: Mariana" required>
+                <input id="inputNome-IMC" class="input-nome" type="text" name="nome-pessoa" placeholder="Ex: Mariana" required>
             </div>
 
             <div class="info-complementar">
@@ -55,11 +55,13 @@
             </div>
 
             <div class="div-input-label">
-                <input class="input-altura-peso" type="number" name="altura-pessoa" placeholder="1,90" required>
-                <input class="input-altura-peso" type="number" name="peso-pessoa" placeholder="35" required>
+                <input id="inputAltura-IMC" class="input-altura-peso" type="number" name="altura-pessoa" placeholder="1,90" required>
+                <input id="inputPeso-IMC" class="input-altura-peso" type="number" name="peso-pessoa" placeholder="35" required>
             </div>
 
-            <button>Calcular</button>
+            <button id="button-IMC">Calcular</button>
+
+            <div class="" id="divResultado"></div>
         </form>
     </main>
 
@@ -82,7 +84,7 @@
         </div>
     </footer>
 
-    <script></script>
+    <script src="../js/imc.js"></script>
 </body>
 
 </html>

@@ -9,7 +9,7 @@ let sectionProdutosSuplementos = document.querySelector('#section-produtos-suple
 let sectionProdutosOrganico = document.querySelector('#section-produtos-organico')
 let sectionProdutosPersonalizados = document.querySelector('#section-produtos-personalizados')
 
-produtosFirst.addEventListener('focus', () => {
+produtosFirst.addEventListener('click', () => {
     if(sectionProdutosSuplementos.classList.contains("notShowing")) {
         minusFirst.textContent = "-"
         sectionProdutosSuplementos.classList.remove("notShowing")
