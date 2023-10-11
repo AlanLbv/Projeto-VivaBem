@@ -72,7 +72,7 @@ form{
 }
 
 .input-form{
-    margin: 15px 0px 25px;
+    margin: 20px 0px 35px;
     padding: 5px 0px;
     width: 400px;
     border-radius: 10px;
@@ -105,4 +105,19 @@ button:hover{
     width: 125px;
     border: 2px solid black;
 
+}
+
+.div-form{
+    display: inherit;
+}
+
+.input-form-feito{
+    margin: 20px 0px 35px;
+    padding: 5px 0px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1.5px solid;
+    border-color: #b6b4b4;
+    font-size: 17px;
+    border-color: black;
 }

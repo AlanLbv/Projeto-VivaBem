@@ -42,22 +42,24 @@
 
     <main>
         <form>
-            <label for="nome-usuario">Nome do Usuário</label>
-            <div class="div-input-form">
-                <input class="input-form" type="text" name="nome-usuario" placeholder="Ex: Gustavo" required>
-            </div>
+            <div class="div-form" id="div-form">
+                <label for="nome-usuario">Nome do Usuário</label>
+                <div class="div-input-form">
+                    <input class="input-form" id="input-nome-form" type="text" name="nome-usuario" placeholder="Ex: Gustavo" required>
+                </div>
+    
+                <label for="email-usuario">Email</label>
+                <div class="div-input-form">
+                    <input class="input-form" id="input-email-form" type="email" name="email-usuario" placeholder="seuemail@exemplo.com" required>
+                </div>
+    
+                <label for="senha-usuario">Senha</label>
+                <div class="div-input-form">
+                    <input class="input-form" id="input-senha-form" type="password" name="senha-usuario" placeholder="........" required>
+                </div>
 
-            <label for="email-usuario">Email</label>
-            <div class="div-input-form">
-                <input class="input-form" type="email" name="email-usuario" placeholder="seuemail@exemplo.com" required>
+                <button id="buttonForm">Criar</button>
             </div>
-
-            <label for="senha-usuario">Senha</label>
-            <div class="div-input-form">
-                <input class="input-form" type="password" name="senha-usuario" placeholder="........" required>
-            </div>
-
-            <button>Criar</button>
         </form>
     </main>
 
@@ -80,6 +82,7 @@
         </div>
     </footer>
 
+    <script src="../js/login.js"></script>
 </body>
 
 </html>
